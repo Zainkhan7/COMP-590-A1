@@ -15,6 +15,7 @@ public class ButtonClick : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Touchscreen.current != null){
          if(Touchscreen.current.press.isPressed)
         {
             BallPrefab ball = Instantiate<BallPrefab>(ballPrefab1);
@@ -22,6 +23,8 @@ public class ButtonClick : MonoBehaviour
             ball.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 
                 UnityEngine.Random.Range(500,750));
         }
+        }
+
         
         
     }

@@ -1,0 +1,86 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void AxeChop_Start_m20A1607ED3BC7346213CF049C47DC107CB633F6B (void);
+extern void AxeChop_Update_mCB37FA252154E11AEE8F486C6E9498DDED4129C1 (void);
+extern void AxeChop_OnCollisionEnter_m6B84702EEEDA3C66CE37FD1DB583D2C76EF4E4EA (void);
+extern void AxeChop__ctor_mF45FC932AFD97D9080E381CCDBD06D99E3CD3386 (void);
+extern void AxeThrow_Start_m977C93C0166915014E6FE8836975EFE4BD66B1FC (void);
+extern void AxeThrow_Update_m2C8B6C2402600DBEB773FB3DDEDC1DDE3B5926FB (void);
+extern void AxeThrow__ctor_mB1E8A326A6232981C9F14C494D814F956B7C28CF (void);
+extern void BallPrefab_Start_m6057D28D41BCAF67F6AF7F0E2D7002B479869355 (void);
+extern void BallPrefab_Update_mCC2220E4D16BDF8559122686B77D34570F096234 (void);
+extern void BallPrefab__ctor_m7C34BAABD316122063E24B1607FF03069C6E9A8A (void);
+extern void ButtonClick_Start_m1EE2255E06C700AB1C7D9D7C4C97A7BEB331915B (void);
+extern void ButtonClick_Update_m301777E385B80EE96DBFCCB7B21E124DB8486B7F (void);
+extern void ButtonClick__ctor_m76945B80FD3A53C5406A5F47AA76647CECE4CA57 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[15] = 
+{
+	AxeChop_Start_m20A1607ED3BC7346213CF049C47DC107CB633F6B,
+	AxeChop_Update_mCB37FA252154E11AEE8F486C6E9498DDED4129C1,
+	AxeChop_OnCollisionEnter_m6B84702EEEDA3C66CE37FD1DB583D2C76EF4E4EA,
+	AxeChop__ctor_mF45FC932AFD97D9080E381CCDBD06D99E3CD3386,
+	AxeThrow_Start_m977C93C0166915014E6FE8836975EFE4BD66B1FC,
+	AxeThrow_Update_m2C8B6C2402600DBEB773FB3DDEDC1DDE3B5926FB,
+	AxeThrow__ctor_mB1E8A326A6232981C9F14C494D814F956B7C28CF,
+	BallPrefab_Start_m6057D28D41BCAF67F6AF7F0E2D7002B479869355,
+	BallPrefab_Update_mCC2220E4D16BDF8559122686B77D34570F096234,
+	BallPrefab__ctor_m7C34BAABD316122063E24B1607FF03069C6E9A8A,
+	ButtonClick_Start_m1EE2255E06C700AB1C7D9D7C4C97A7BEB331915B,
+	ButtonClick_Update_m301777E385B80EE96DBFCCB7B21E124DB8486B7F,
+	ButtonClick__ctor_m76945B80FD3A53C5406A5F47AA76647CECE4CA57,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[15] = 
+{
+	5295,
+	5295,
+	4208,
+	5295,
+	5295,
+	5295,
+	5295,
+	5295,
+	5295,
+	5295,
+	5295,
+	5295,
+	5295,
+	7945,
+	5295,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	15,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
